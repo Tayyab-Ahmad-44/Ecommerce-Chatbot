@@ -20,5 +20,5 @@ The real fun began there. Before that, I was already acquainted with how to depl
 Then I went with my last but not least option, which was to deploy it on Streamlit Cloud. After some time, I was able to accomplish that. Here is the link if you want to visit: "https://tayyab-maktek.streamlit.app/".
 
 # Conclusion
-The most efficient way that I found was to use finetuning because, in a website or any other place where users ask something from a chatbot, the most important factor is response time ⏱️. The latency of the finetuned model is very good, making it ideal for this type of application. However, I finetuned the model, but unfortunately, I wasn't able to integrate it into the chatbot due to a lack of resources. We can also use RAG here for simplicity.
+The most efficient way that I found was to use finetuning because, in a website or any other place where users ask something from a chatbot, the most important factor is response time. The latency of the finetuned model is very good, making it ideal for this type of application. However, I finetuned the model, but unfortunately, I wasn't able to integrate it into the chatbot due to a lack of resources. We can also use RAG here for simplicity.
 
