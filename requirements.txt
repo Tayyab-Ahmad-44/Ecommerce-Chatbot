@@ -1,0 +1,9 @@
+langchain_huggingface 
+langchain_text_splitters 
+langchain_community   
+langchain
+sentence_transformers 
+huggingface_hub 
+langchain_groq
+streamlit
+faiss-cpu
