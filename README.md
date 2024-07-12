@@ -1,7 +1,7 @@
 # Methods Used:
-Finetuned Phi3 \n
-RAG App Using LangChain \n
-Using CSV-Agent
+1. Finetuned Phi3 
+2. RAG App Using LangChain 
+3. Using CSV-Agent
 ## 1. Finetuning:
 My original idea was to finetune Llama3-7b on the dataset and then use that finetuned model as an LLM in the RAG application to answer queries efficiently. As we all know, nothing ever goes as planned in this cursed world 😅. I finetuned the model, but when it came time to deploy it on Hugging Face, I ran short on GPU RAM, and the whole 4-5 hours went for nothing. I never thought 16 GB of GPU RAM would be insufficient. So, I searched for other models and found Phi3-mini (3B parameters), which is also really good. I then finetuned that model and deployed it on Hugging Face so that I could use it in the RAG pipeline.
 
