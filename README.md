@@ -23,10 +23,11 @@ Then I went with my last but not least option, which was to deploy it on Streaml
 The most efficient way that I found was to use finetuning because, in a website or any other place where users ask something from a chatbot, the most important factor is response time. The latency of the finetuned model is very good, making it ideal for this type of application. However, I finetuned the model, but unfortunately, I wasn't able to integrate it into the chatbot due to a lack of resources. We can also use RAG here for simplicity.
 
 # How to run?
-Ensure that you have pip and python installed
-Then run these commands to run app
+1- Ensure that you have pip and python installed
+2- Then run these commands to run app
 ----------
 pip install -r requirements.txt
+----------
 streamlit run main.py
 ----------
 
